@@ -41,7 +41,9 @@ class Order(HashModel):
 
 @app.get('/orders/{pk}')
 def get(pk: str):
-    return Order.get(pk)
+    order = Order.get(pk)
+    redis.xadd('refund_order', order.dict(), '*')
+    return order
 
 
 @app.post('/orders')
