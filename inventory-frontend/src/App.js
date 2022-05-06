@@ -1,5 +1,6 @@
 import {Products} from "./components/Products";
 import {ProductsCreate} from "./components/ProductsCreate";
+import {Orders} from "./components/Orders";
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
 
@@ -8,6 +9,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<Products />} />
                 <Route path="/create" element={<ProductsCreate />} />
+                <Route path="/orders" element={<Orders />} />
             </Routes>
          </BrowserRouter>;
 }
