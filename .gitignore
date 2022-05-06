@@ -2,3 +2,4 @@ fastapi/
 __pycache__/
 .idea/
 inventory/redis_cons.py
+payment/redis_cons.py
