@@ -3,9 +3,4 @@ __pycache__/
 .idea/
 inventory/redis_cons.py
 payment/redis_cons.py
-inventory-frontend/node_modules
-inventory-frontend/node_modules/react-router
-inventory-frontend/node_modules/react-router-dom
-inventory-frontend/node_modules/regenerator-runtime
-inventory-frontend/node_modules/history
-inventory-frontend/node_modules/@babel
+node_modules/
